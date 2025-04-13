@@ -1,0 +1,437 @@
+job 0 arrives at time 0.5260071334631798
+batch 0 selection: [([0], 0, 0, 1, 1, 0)]
+[('simon_n6',)]
+batch 0 cx9vvyzztp30008g3emg combined 1
+batch 0 takes 3.05525815
+job 1 arrives at time 2.6369378118607636
+batch 0 finishes at 3.5812652834631797
+batch 1 selection: [([0], 0, 0, 3, 1, 1)]
+[('knn_n25',)]
+batch 1 cx9vw89rkac00089mm4g combined 1
+batch 1 takes 3.47844613
+job 2 arrives at time 3.7920091805705556
+job 3 arrives at time 4.271739827808761
+job 4 arrives at time 4.3956370357574714
+job 5 arrives at time 4.5933227245564945
+job 6 arrives at time 6.573538159762942
+batch 1 finishes at 7.05971141346318
+batch 2 selection: [([0], 0, 0, 1, 1, 0), ([1], 1, 0, 2, 1, 1), ([2], 0, 1, 1, 1, 0), ([3], 1, 1, 1, 1, 0), ([4], 1, 2, 1, 1, 0)]
+[('deutsch_n2',), ('seca_n11',), ('linearsolver_n3',), ('qaoa_n3',), ('quantumwalks_n2',)]
+batch 2 cx9vwehtpsjg008ce9ag combined 5
+batch 2 takes 3.2948601699999993
+job 7 arrives at time 7.220526586080498
+job 8 arrives at time 7.73809036138613
+job 9 arrives at time 8.127632151347969
+job 10 arrives at time 9.182722610592945
+job 11 arrives at time 9.735937960946265
+job 12 arrives at time 10.311361949620364
+batch 2 finishes at 10.35457158346318
+batch 3 selection: [([0], 0, 0, 1, 1, 0), ([1], 0, 1, 1, 1, 0), ([2], 1, 1, 1, 1, 0), ([3], 2, 1, 1, 2, 0), ([4], 1, 2, 1, 1, 0)]
+[('bell_n4',), ('toffoli_n3',), ('grover_n2',), ('bv_n14',), ('basis_change_n3',)]
+batch 3 cx9vwmttpsjg008ce9c0 combined 5
+batch 3 takes 3.0913625670000004
+job 13 arrives at time 10.763769616074251
+job 14 arrives at time 12.744421295283908
+job 15 arrives at time 12.849791071124601
+batch 3 finishes at 13.44593415046318
+batch 4 selection: [([0], 0, 0, 1, 1, 0), ([1], 0, 1, 1, 1, 0), ([2], 1, 1, 1, 1, 0), ([3], 1, 2, 1, 1, 0)]
+[('vqe_n4',), ('variational_n4',), ('linearsolver_n3',), ('fredkin_n3',)]
+batch 4 cx9vwv3tpsjg008ce9d0 combined 4
+batch 4 takes 3.0231493030000003
+batch 4 finishes at 16.46908345346318
+job 16 arrives at time 16.558026045035326
+batch 5 selection: [([0], 1, 0, 2, 1, 1)]
+[('multiplier_n15',)]
+batch 5 cx9vx0cpx23g008bwqw0 combined 1
+batch 5 takes 4.167104632
+job 17 arrives at time 16.941643817505252
+batch 5 finishes at 20.725130677035327
+batch 6 selection: [([0], 0, 1, 3, 1, 1)]
+[('cat_state_n22',)]
+batch 6 cx9vx64tpsjg008ce9dg combined 1
+batch 6 takes 3.1950686380000004
+job 18 arrives at time 23.43193921779972
+job 19 arrives at time 23.676278976433448
+job 20 arrives at time 23.80902439790719
+batch 6 finishes at 23.920199315035326
+batch 7 selection: [([0], 0, 2, 1, 1, 0), ([1], 0, 0, 3, 1, 1), ([2], 0, 1, 1, 1, 0)]
+[('qaoa_n6',), ('swap_test_n25',), ('adder_n4',)]
+batch 7 cx9vxbnpjw30008h4xa0 combined 3
+batch 7 takes 3.535992515
+job 21 arrives at time 25.266249536902034
+job 22 arrives at time 26.009491202921016
+batch 7 finishes at 27.456191830035326
+batch 8 selection: [([0], 0, 0, 1, 1, 0), ([1], 1, 0, 2, 1, 1)]
+[('simon_n6',), ('seca_n11',)]
+batch 8 cx9vxnybqkhg00891nrg combined 2
+batch 8 takes 3.344749524000001
+job 23 arrives at time 27.59324845778476
+job 24 arrives at time 28.514512562658144
+job 25 arrives at time 28.860608079303503
+job 26 arrives at time 30.151402645257306
+batch 8 finishes at 30.800941354035327
+batch 9 selection: [([0], 0, 0, 1, 1, 0), ([1], 0, 2, 1, 1, 0), ([2], 0, 1, 1, 1, 0), ([3], 1, 0, 2, 1, 1)]
+[('cat_state_n4',), ('error_correctiond3_n5',), ('basis_change_n3',), ('seca_n11',)]
+batch 9 cx9vydspx23g008bwqz0 combined 4
+batch 9 takes 3.411357025
+batch 9 finishes at 34.212298379035325
+job 27 arrives at time 35.64899968141845
+batch 10 selection: [([0], 0, 2, 1, 1, 0)]
+[('error_correctiond3_n5',)]
+batch 10 cx9vymjpx23g008bwr00 combined 1
+batch 10 takes 3.929024735
+job 28 arrives at time 38.43466789941991
+job 29 arrives at time 38.57220056139984
+job 30 arrives at time 39.13833780581462
+batch 10 finishes at 39.57802441641845
+batch 11 selection: [([0], 0, 0, 1, 1, 0), ([1], 1, 0, 1, 3, 0), ([2], 2, 1, 1, 2, 0)]
+[('variational_n4',), ('qft_n18',), ('bb84_n8',)]
+batch 11 cx9vyvkpx23g008bwr1g combined 3
+batch 11 takes 4.0292511
+job 31 arrives at time 39.93752797369925
+job 32 arrives at time 40.496297991225646
+job 33 arrives at time 42.85043480587404
+batch 11 finishes at 43.607275516418454
+batch 12 selection: [([0], 0, 0, 1, 2, 0), ([1], 1, 1, 1, 1, 0), ([2], 1, 0, 2, 1, 1)]
+[('bb84_n8',), ('qrng_n4',), ('multiply_n13',)]
+batch 12 cx9vz3cztp30008g3ew0 combined 3
+batch 12 takes 3.921106483
+job 34 arrives at time 43.83484034310976
+job 35 arrives at time 47.31489885523687
+batch 12 finishes at 47.52838199941846
+batch 13 selection: [([0], 0, 1, 3, 1, 1), ([1], 0, 0, 1, 1, 0)]
+[('ghz_state_n23',), ('teleportation_n3',)]
+batch 13 cx9vz9npjw30008h4xf0 combined 2
+batch 13 takes 3.220856867
+job 36 arrives at time 48.874421168568695
+job 37 arrives at time 50.30141149849151
+batch 13 finishes at 50.74923886641846
+batch 14 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 0, 1, 1, 0)]
+[('ising_n10',), ('toffoli_n3',)]
+batch 14 cx9vzfdbqkhg00891nw0 combined 2
+batch 14 takes 3.0371392950000002
+job 38 arrives at time 50.89509456796446
+job 39 arrives at time 52.315927150970545
+job 40 arrives at time 53.64305766004367
+batch 14 finishes at 53.78637816141846
+batch 15 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 0, 1, 1, 0), ([2], 0, 1, 1, 1, 0)]
+[('gcm_n13',), ('lpn_n5',), ('qft_n4',)]
+batch 15 cx9vznppx23g008bwr5g combined 3
+batch 15 takes 8.002147226999998
+job 41 arrives at time 54.24900283807119
+job 42 arrives at time 54.524344745830554
+job 43 arrives at time 55.522001474647375
+job 44 arrives at time 55.955581764858486
+job 45 arrives at time 56.36831248134369
+job 46 arrives at time 56.67485556238667
+job 47 arrives at time 60.291744840415184
+job 48 arrives at time 61.069268626599516
+batch 15 finishes at 61.78852538841846
+batch 16 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 1, 1, 1, 0), ([2], 1, 1, 1, 1, 0), ([3], 1, 2, 1, 1, 0), ([6], 2, 1, 1, 1, 0), ([7], 2, 2, 1, 1, 0)]
+[('qram_n20',), ('iswap_n2',), ('iswap_n2',), ('adder_n4',), ('teleportation_n3',), ('wstate_n3',)]
+batch 16 cx9vzz7ztp30008g3f00 combined 6
+batch 16 takes 3.8466321950000006
+job 49 arrives at time 61.878739460829124
+job 50 arrives at time 62.645445485627164
+job 51 arrives at time 64.61652147165816
+job 52 arrives at time 64.8850271594335
+batch 16 finishes at 65.63515758341846
+batch 17 selection: [([0], 1, 0, 2, 1, 0), ([1], 0, 2, 2, 1, 0), ([2], 0, 0, 1, 1, 0), ([3], 0, 1, 1, 1, 0)]
+[('qec9xz_n17',), ('qec9xz_n17',), ('basis_change_n3',), ('fredkin_n3',)]
+batch 17 cx9w0wkbqkhg00891p00 combined 4
+batch 17 takes 3.2832497730000005
+job 53 arrives at time 65.78453888179436
+job 54 arrives at time 68.51111060085081
+batch 17 finishes at 68.91840735641846
+batch 18 selection: [([0], 0, 0, 3, 1, 0), ([1], 0, 2, 3, 1, 1), ([2], 0, 1, 1, 1, 0), ([3], 1, 1, 1, 1, 0)]
+[('wstate_n27',), ('bigadder_n18',), ('qaoa_n3',), ('cat_state_n4',)]
+batch 18 cx9w12mpx23g008bwrb0 combined 4
+batch 18 takes 3.7022930029999994
+job 55 arrives at time 68.94018109930096
+job 56 arrives at time 68.98940511781231
+job 57 arrives at time 70.72799592669521
+job 58 arrives at time 72.49237673989498
+batch 18 finishes at 72.62070035941845
+batch 19 selection: [([0], 0, 0, 1, 1, 0), ([1], 0, 1, 1, 1, 0), ([2], 1, 0, 2, 1, 1), ([3], 0, 2, 3, 1, 1)]
+[('lpn_n5',), ('deutsch_n2',), ('multiply_n13',), ('bv_n19',)]
+batch 19 cx9w19dztp30008g3f5g combined 4
+batch 19 takes 3.208723731
+job 59 arrives at time 74.04391596730946
+job 60 arrives at time 74.97703979263945
+batch 19 finishes at 75.82942409041846
+batch 20 selection: [([0], 0, 0, 3, 1, 0), ([1], 0, 1, 1, 1, 0)]
+[('wstate_n27',), ('qec_en_n5',)]
+batch 20 cx9w1fdztp30008g3f7g combined 2
+batch 20 takes 3.1725481099999997
+job 61 arrives at time 77.33879171100305
+job 62 arrives at time 77.70080006988339
+job 63 arrives at time 78.89496610201451
+batch 20 finishes at 79.00197220041845
+batch 21 selection: [([0], 0, 0, 1, 1, 0), ([1], 1, 0, 1, 3, 0), ([2], 0, 1, 1, 2, 0)]
+[('simon_n6',), ('square_root_n18',), ('sat_n11',)]
+batch 21 cx9w1nppx23g008bwrcg combined 3
+batch 21 takes 10.772001245000002
+job 64 arrives at time 79.62837655829333
+job 65 arrives at time 80.19667736262272
+job 66 arrives at time 80.61579948178289
+job 67 arrives at time 81.20055519711511
+job 68 arrives at time 83.48532678435188
+job 69 arrives at time 84.04994188797683
+job 70 arrives at time 84.54696390465838
+job 71 arrives at time 85.33824562167233
+job 72 arrives at time 85.83086634682657
+job 73 arrives at time 86.21544427729972
+job 74 arrives at time 86.39947593746037
+job 75 arrives at time 86.79813719428805
+job 76 arrives at time 87.33096972211138
+job 77 arrives at time 88.360900809342
+job 78 arrives at time 89.01235607018951
+batch 21 finishes at 89.77397344541845
+batch 22 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 1, 1, 1, 0), ([2], 0, 2, 3, 1, 1), ([3], 1, 1, 1, 1, 0), ([5, 9], 2, 1, 1, 1, 0)]
+[('qram_n20',), ('lpn_n5',), ('bv_n19',), ('adder_n4',), ('quantumwalks_n2', 'grover_n2')]
+batch 22 cx9w2paztp30008g3fbg combined 6
+batch 22 takes 3.774460774
+job 79 arrives at time 90.30464511422358
+job 80 arrives at time 90.35884459110918
+job 81 arrives at time 90.87183244800579
+job 82 arrives at time 91.19281766004327
+job 83 arrives at time 91.24496396991292
+job 84 arrives at time 92.35041274050936
+job 85 arrives at time 92.60484923200802
+job 86 arrives at time 93.02976825559335
+job 87 arrives at time 93.33394741263139
+job 88 arrives at time 93.46359481426029
+batch 22 finishes at 93.54843421941845
+batch 23 selection: [([0], 0, 0, 1, 2, 0), ([1], 1, 1, 1, 1, 0), ([2], 1, 2, 1, 1, 0), ([3], 2, 1, 1, 1, 0), ([4], 1, 0, 2, 1, 1), ([6], 0, 2, 1, 1, 0), ([7], 2, 2, 1, 1, 0)]
+[('bv_n14',), ('vqe_n4',), ('variational_n4',), ('vqe_n4',), ('qf21_n15',), ('error_correctiond3_n5',), ('basis_trotter_n4',)]
+batch 23 cx9w2y3tpsjg008ce9tg combined 7
+batch 23 takes 4.46243209
+job 89 arrives at time 96.4734696231285
+job 90 arrives at time 96.73231019772925
+job 91 arrives at time 97.60869554911051
+job 92 arrives at time 97.68504573717499
+batch 23 finishes at 98.01086630941845
+batch 24 selection: [([0], 0, 0, 1, 2, 0), ([1, 8], 1, 1, 1, 1, 0), ([2], 1, 0, 2, 1, 1), ([3], 0, 2, 3, 1, 0), ([4], 2, 1, 1, 1, 0)]
+[('bv_n14',), ('deutsch_n2', 'basis_change_n3'), ('sat_n11',), ('ising_n26',), ('qaoa_n6',)]
+batch 24 cx9w35cztp30008g3fdg combined 6
+batch 24 takes 5.081892116
+job 93 arrives at time 100.8333225018879
+job 94 arrives at time 101.93483008035763
+job 95 arrives at time 102.19087732153379
+job 96 arrives at time 102.60641824123726
+batch 24 finishes at 103.09275842541845
+batch 25 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 2, 1, 1, 0), ([2], 0, 0, 1, 2, 0), ([3], 1, 1, 1, 1, 0), ([4], 2, 1, 1, 2, 0), ([5], 1, 2, 1, 1, 0)]
+[('qf21_n15',), ('qaoa_n6',), ('gcm_n13',), ('simon_n6',), ('qf21_n15',), ('qrng_n4',)]
+batch 25 cx9w3k6pjw30008h4xwg combined 6
+batch 25 takes 7.013504591
+job 97 arrives at time 104.31732191269097
+job 98 arrives at time 104.47397740885275
+job 99 arrives at time 106.73941268948315
+job 100 arrives at time 106.82517919483627
+job 101 arrives at time 106.88751113036035
+job 102 arrives at time 108.314092189313
+job 103 arrives at time 109.95666736931057
+batch 25 finishes at 110.10626301641845
+batch 26 selection: [([0], 0, 1, 3, 1, 1), ([1], 0, 0, 3, 1, 1), ([2], 0, 2, 2, 1, 1), ([3, 4], 2, 2, 1, 1, 0)]
+[('cat_state_n22',), ('bv_n19',), ('multiplier_n15',), ('wstate_n3', 'quantumwalks_n2')]
+batch 26 cx9w3vqrkac00089mmqg combined 5
+batch 26 takes 4.183902749000001
+job 104 arrives at time 111.3479163583535
+job 105 arrives at time 113.07305380671345
+job 106 arrives at time 113.35173694867844
+job 107 arrives at time 113.36998631170131
+job 108 arrives at time 113.40229895183393
+batch 26 finishes at 114.29016576541845
+batch 27 selection: [([0, 10], 0, 0, 1, 1, 0), ([1], 0, 1, 1, 1, 0), ([2], 1, 1, 1, 1, 0), ([3], 1, 0, 2, 1, 1), ([4], 0, 2, 3, 1, 1), ([5], 2, 1, 1, 1, 0)]
+[('grover_n2', 'toffoli_n3'), ('wstate_n3',), ('dnn_n2',), ('gcm_n13',), ('swap_test_n25',), ('dnn_n2',)]
+batch 27 cx9w44gpjw30008h4xyg combined 7
+batch 27 takes 7.137813844
+job 109 arrives at time 115.12065288888563
+job 110 arrives at time 115.75682304047375
+job 111 arrives at time 116.53547375753219
+job 112 arrives at time 117.5673769960775
+job 113 arrives at time 117.71415351122141
+batch 27 finishes at 121.42797960941846
+batch 28 selection: [([0], 0, 0, 3, 1, 0), ([1], 0, 1, 1, 2, 0), ([3], 1, 1, 1, 2, 0), ([4], 2, 1, 1, 2, 0)]
+[('ising_n26',), ('seca_n11',), ('multiply_n13',), ('gcm_n13',)]
+batch 28 cx9w4d1px23g008bwrj0 combined 4
+batch 28 takes 9.5205388
+job 114 arrives at time 121.73354699377674
+job 115 arrives at time 122.83288340717749
+job 116 arrives at time 123.20576782159168
+job 117 arrives at time 123.5310221163871
+job 118 arrives at time 123.89005488589218
+job 119 arrives at time 123.95115963646373
+job 120 arrives at time 124.39440337376071
+job 121 arrives at time 124.8821059614418
+job 122 arrives at time 126.35588261500614
+job 123 arrives at time 126.81975309891394
+job 124 arrives at time 127.2109357640709
+batch 28 finishes at 130.94851840941845
+batch 29 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 1, 1, 1, 0), ([2], 0, 2, 3, 1, 1), ([3], 1, 1, 1, 1, 0), ([4, 7], 2, 1, 1, 1, 0)]
+[('bv_n19',), ('adder_n4',), ('qram_n20',), ('hs4_n4',), ('grover_n2', 'wstate_n3')]
+batch 29 cx9w4tbtpsjg008cea3g combined 6
+batch 29 takes 3.7177326500000003
+job 125 arrives at time 131.65502049571808
+job 126 arrives at time 132.07008398268076
+job 127 arrives at time 132.32455787909026
+job 128 arrives at time 132.33155686304428
+job 129 arrives at time 133.72915237080508
+job 130 arrives at time 134.46824189122523
+batch 29 finishes at 134.66625105941844
+batch 30 selection: [([0], 0, 0, 1, 1, 0), ([1], 1, 0, 2, 1, 1), ([2], 0, 2, 2, 1, 0), ([3], 0, 1, 3, 1, 1), ([6], 2, 2, 1, 1, 0)]
+[('cat_state_n4',), ('sat_n11',), ('qec9xz_n17',), ('qram_n20',), ('hs4_n4',)]
+batch 30 cx9w51crkac00089mmsg combined 5
+batch 30 takes 4.62528452
+job 131 arrives at time 134.93728606591264
+job 132 arrives at time 137.30165090354504
+job 133 arrives at time 138.5745755131934
+job 134 arrives at time 138.7114079105548
+job 135 arrives at time 139.06298602801047
+batch 30 finishes at 139.29153557941845
+batch 31 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 1, 1, 2, 0), ([3], 0, 0, 1, 1, 0), ([4, 12], 1, 1, 1, 1, 0), ([6], 2, 1, 1, 2, 0), ([7], 1, 2, 1, 1, 0)]
+[('dnn_n8',), ('dnn_n16',), ('qft_n4',), ('dnn_n2', 'iswap_n2'), ('dnn_n16',), ('fredkin_n3',)]
+batch 31 cx9w5adbqkhg00891peg combined 7
+batch 31 takes 3.3844101660000003
+job 136 arrives at time 139.46061577978116
+job 137 arrives at time 139.48773848031564
+job 138 arrives at time 140.99865509033478
+job 139 arrives at time 141.36274599923007
+batch 31 finishes at 142.67594574541846
+batch 32 selection: [([0], 0, 0, 3, 1, 0), ([1], 0, 2, 3, 1, 1), ([2], 0, 1, 3, 1, 0)]
+[('wstate_n27',), ('square_root_n18',), ('ising_n26',)]
+batch 32 cx9w5j6bqkhg00891pgg combined 3
+batch 32 takes 9.634730802000002
+job 140 arrives at time 144.13243441097723
+job 141 arrives at time 144.85469405949829
+job 142 arrives at time 144.94696861978676
+job 143 arrives at time 147.19756623952472
+job 144 arrives at time 147.8941429478459
+job 145 arrives at time 149.3897457765521
+batch 32 finishes at 152.31067654741847
+batch 33 selection: [([0], 0, 0, 3, 1, 1), ([1], 1, 1, 1, 2, 0), ([2], 0, 1, 1, 1, 0), ([4], 2, 1, 1, 2, 0), ([16], 0, 2, 1, 1, 0)]
+[('bigadder_n18',), ('bb84_n8',), ('qec_en_n5',), ('bb84_n8',), ('basis_trotter_n4',)]
+batch 33 cx9w5vzpjw30008h4y40 combined 5
+batch 33 takes 6.27931295
+job 146 arrives at time 153.28356398268852
+job 147 arrives at time 153.4053098860584
+job 148 arrives at time 154.75567155016964
+job 149 arrives at time 154.81547971877208
+job 150 arrives at time 156.9229837945797
+batch 33 finishes at 158.58998949741846
+batch 34 selection: [([0], 0, 1, 3, 1, 1), ([1], 1, 0, 2, 1, 1), ([3], 0, 2, 2, 1, 1), ([7], 0, 0, 1, 1, 0), ([8], 2, 2, 1, 1, 0)]
+[('ghz_state_n23',), ('dnn_n16',), ('dnn_n16',), ('variational_n4',), ('vqe_n4',)]
+batch 34 cx9w668px23g008bwrt0 combined 5
+batch 34 takes 3.4415467379999996
+job 151 arrives at time 160.96235157313976
+batch 34 finishes at 162.03153623541846
+batch 35 selection: [([0], 0, 1, 3, 1, 1), ([1], 0, 0, 3, 1, 1), ([2], 0, 2, 3, 1, 1)]
+[('ghz_state_n23',), ('square_root_n18',), ('qft_n18',)]
+batch 35 cx9w6e1tpsjg008ceab0 combined 3
+batch 35 takes 9.957187872
+job 152 arrives at time 166.81077141338525
+job 153 arrives at time 167.34691721785154
+job 154 arrives at time 171.8042549706494
+batch 35 finishes at 171.98872410741845
+batch 36 selection: [([0], 1, 0, 2, 1, 0), ([1], 0, 0, 1, 3, 0), ([2], 1, 1, 1, 1, 0), ([4], 1, 2, 1, 1, 0), ([5], 2, 1, 1, 1, 0), ([7, 15], 2, 2, 1, 1, 0)]
+[('qec9xz_n17',), ('knn_n25',), ('hs4_n4',), ('qec_en_n5',), ('qft_n4',), ('qaoa_n3', 'toffoli_n3')]
+batch 36 cx9w6qjrkac00089mn20 combined 7
+batch 36 takes 3.4451838919999997
+job 155 arrives at time 172.55887745166086
+job 156 arrives at time 175.3391562759389
+batch 36 finishes at 175.43390799941844
+batch 37 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 1, 1, 2, 0), ([2], 1, 1, 1, 1, 0), ([3], 2, 1, 1, 2, 0), ([4], 1, 2, 1, 1, 0)]
+[('swap_test_n25',), ('qf21_n15',), ('qec_en_n5',), ('multiplier_n15',), ('qaoa_n6',)]
+batch 37 cx9w6ybtpsjg008ceac0 combined 5
+batch 37 takes 4.12345968
+job 157 arrives at time 176.56714384212393
+job 158 arrives at time 177.40956497195003
+job 159 arrives at time 178.38141975729272
+job 160 arrives at time 178.85954877476132
+job 161 arrives at time 179.44525967541813
+batch 37 finishes at 179.55736767941843
+batch 38 selection: [([0], 0, 2, 1, 1, 0), ([1], 0, 0, 3, 1, 0), ([2], 1, 1, 1, 2, 0), ([3], 2, 1, 1, 2, 0), ([6, 7], 0, 1, 1, 1, 0)]
+[('error_correctiond3_n5',), ('wstate_n27',), ('dnn_n8',), ('multiplier_n15',), ('deutsch_n2', 'linearsolver_n3')]
+batch 38 cx9w774px23g008bwrvg combined 6
+batch 38 takes 4.1407154440000005
+job 162 arrives at time 180.06363102670386
+job 163 arrives at time 180.86892915664862
+job 164 arrives at time 181.21984286866237
+job 165 arrives at time 181.42347000475553
+job 166 arrives at time 182.2647920022092
+batch 38 finishes at 183.69808312341843
+batch 39 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 2, 3, 1, 1), ([2], 0, 1, 2, 1, 1), ([4], 2, 1, 1, 1, 0)]
+[('qft_n18',), ('square_root_n18',), ('bv_n14',), ('hs4_n4',)]
+batch 39 cx9w7fdztp30008g3fr0 combined 4
+batch 39 takes 10.000986932
+job 167 arrives at time 185.22951983760038
+job 168 arrives at time 185.58450426433564
+job 169 arrives at time 185.59676601374943
+job 170 arrives at time 186.1872376532216
+job 171 arrives at time 187.94793916001194
+job 172 arrives at time 188.86707613140572
+job 173 arrives at time 189.17098222252633
+job 174 arrives at time 189.37779306909192
+job 175 arrives at time 189.5642290442287
+job 176 arrives at time 191.58111943652972
+job 177 arrives at time 191.63879804317358
+job 178 arrives at time 192.14375754447332
+job 179 arrives at time 192.38338972247277
+job 180 arrives at time 192.40308013302558
+batch 39 finishes at 193.69907005541842
+batch 40 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 1, 1, 2, 0), ([2], 0, 0, 1, 1, 0), ([3], 1, 1, 1, 1, 0), ([5], 1, 2, 1, 1, 0), ([8], 2, 1, 1, 2, 0)]
+[('ising_n10',), ('multiply_n13',), ('qrng_n4',), ('qft_n4',), ('qrng_n4',), ('dnn_n8',)]
+batch 40 cx9w7wqrkac00089mn6g combined 6
+batch 40 takes 3.4643747599999997
+job 181 arrives at time 195.4928757426769
+batch 40 finishes at 197.16344481541842
+batch 41 selection: [([0], 0, 0, 3, 1, 1), ([1], 0, 2, 3, 1, 1), ([2], 0, 1, 3, 1, 0)]
+[('bigadder_n18',), ('qft_n18',), ('ising_n26',)]
+batch 41 cx9w85gpjw30008h4ybg combined 3
+batch 41 takes 3.7146858669999996
+job 182 arrives at time 197.36970262657155
+job 183 arrives at time 197.68450265974687
+job 184 arrives at time 199.9378738341764
+batch 41 finishes at 200.8781306824184
+batch 42 selection: [([0, 7], 0, 0, 1, 1, 0), ([1], 1, 0, 2, 1, 1), ([2], 0, 1, 1, 1, 0), ([3], 1, 1, 1, 1, 0), ([4], 0, 2, 3, 1, 1), ([6], 2, 1, 1, 1, 0)]
+[('qaoa_n3', 'teleportation_n3'), ('dnn_n8',), ('fredkin_n3',), ('bell_n4',), ('knn_n25',), ('quantumwalks_n2',)]
+batch 42 cx9w8d9bqkhg00891pqg combined 7
+batch 42 takes 3.4977266140000003
+job 185 arrives at time 201.09150724255164
+job 186 arrives at time 201.7503705483316
+job 187 arrives at time 203.09199390136425
+batch 42 finishes at 204.3758572964184
+batch 43 selection: [([0], 1, 0, 2, 1, 1), ([1], 0, 0, 1, 3, 0), ([2], 1, 1, 1, 2, 0), ([3], 2, 1, 1, 2, 0)]
+[('ising_n10',), ('swap_test_n25',), ('sat_n11',), ('ising_n10',)]
+batch 43 cx9w8mjbqkhg00891ps0 combined 4
+batch 43 takes 4.612516888000001
+job 188 arrives at time 205.3238498737316
+job 189 arrives at time 205.51196200462957
+job 190 arrives at time 206.06288712572305
+job 191 arrives at time 206.36647014042939
+batch 43 finishes at 208.98837418441838
+batch 44 selection: [([0], 0, 2, 1, 1, 0), ([1], 0, 0, 3, 1, 1), ([2], 0, 1, 1, 1, 0), ([4, 9], 1, 1, 1, 1, 0), ([5], 1, 2, 1, 1, 0), ([6], 2, 1, 1, 1, 0), ([8], 2, 2, 1, 1, 0)]
+[('basis_trotter_n4',), ('knn_n25',), ('basis_trotter_n4',), ('linearsolver_n3', 'dnn_n2'), ('teleportation_n3',), ('cat_state_n4',), ('bell_n4',)]
+batch 44 cx9w8w3pjw30008h4ycg combined 8
+batch 44 takes 5.104902746
+job 192 arrives at time 210.03917984384978
+job 193 arrives at time 212.0810415231662
+job 194 arrives at time 212.13801315146907
+job 195 arrives at time 212.3974755205297
+batch 44 finishes at 214.09327693041837
+batch 45 selection: [([0], 0, 1, 3, 1, 1), ([2], 0, 0, 1, 1, 0), ([4], 1, 2, 1, 1, 0), ([5], 2, 2, 1, 1, 0)]
+[('cat_state_n22',), ('lpn_n5',), ('bell_n4',), ('iswap_n2',)]
+batch 45 cx9w96mztp30008g3fx0 combined 4
+batch 45 takes 3.1666031579999996
+batch 45 finishes at 217.25988008841836
+batch 46 selection: [([0], 0, 1, 3, 1, 1), ([2], 0, 0, 3, 1, 1)]
+[('cat_state_n22',), ('bigadder_n18',)]
+batch 46 cx9w9cdztp30008g3fxg combined 2
+batch 46 takes 3.7158235980000005
+batch 46 finishes at 220.97570368641837
+batch 47 selection: [([0], 0, 1, 3, 1, 1)]
+[('ghz_state_n23',)]
+batch 47 cx9w9jeztp30008g3fz0 combined 1
+batch 47 takes 4.0445450990000005
+batch 47 finishes at 225.02024878541837
+average wait time 14.221189939982372
