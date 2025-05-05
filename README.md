@@ -88,4 +88,4 @@ HyperQ poisson benchmark workflow:
 
     Same for remaining steps.
 
-
+Note: At the time when the paper was written, we used IBM qiskit provider's backend.run() API with dynamic=True option. Now this API is deprecated and we changed our code to use the Sampler API. With this new API, HyperQ cannot reach ideal speedup with time scheduling. We believe there are some instruction-level scheduling that we don't have control.
