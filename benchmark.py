@@ -146,7 +146,7 @@ sys.stdout = Tee(sys.stdout, log_file)
 
 
 while len(exec_queue):
-    selection = hypervisor.schedule(exec_queue, time_sched = False, intra_vm_sched = False, noise_aware = False) 
+    selection = hypervisor.schedule(exec_queue, time_sched = False, intra_vm_sched = True, noise_aware = False) 
     print('selection:', selection)
     # for j in selection:
     #     print(exec_queue_names[j[0]], end=' ')
