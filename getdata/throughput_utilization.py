@@ -123,8 +123,8 @@ print('baseline average utilization =', baseline_utilization_avg)
 print('qvm average utilization =', qvm_utilization_avg)
 print('utilization improvement =', qvm_utilization_avg / baseline_utilization_avg)
 
-throughput_ratio_avg_alt = sum(throughput_ratio)/len(throughput_ratio)
-print('alternative throughput improvement =', throughput_ratio_avg_alt)
+# throughput_ratio_avg_alt = sum(throughput_ratio)/len(throughput_ratio)
+# print('alternative throughput improvement =', throughput_ratio_avg_alt)
 
-qvm_utilization_avg_alt = sum(qvm_utilization_ratio)/len(qvm_utilization_ratio)
-print('alnernative utilization improvement =', qvm_utilization_avg_alt)
+# qvm_utilization_avg_alt = sum(qvm_utilization_ratio)/len(qvm_utilization_ratio)
+# print('alnernative utilization improvement =', qvm_utilization_avg_alt)
