@@ -21,7 +21,7 @@ class CombinerJob(JobV1):
             counts_individual.append(defaultdict(int))
 
         for k, v in counts.items():
-            offset = 0
+            offset = 1
             # remove spaces
             k = k.replace(' ', '')
             for i in range(circ_cnt-1, -1, -1): # correction: reverse order
