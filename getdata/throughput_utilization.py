@@ -82,10 +82,10 @@ qvm_jobs = list(service2.job(i[0]) for i in workload)
 
 # qvm vs baseline comparison
 # throughput
-single_thread_time = sum(i.result().metadata['execution']['execution_spans'].duration for i in baseline_jobs)
+single_thread_time = sum(i.usage() for i in baseline_jobs)
 print('single thread time =', single_thread_time)
 
-qvm_time = sum(i.result().metadata['execution']['execution_spans'].duration for i in qvm_jobs)
+qvm_time = sum(i.usage() for i in qvm_jobs)
 print('qvm time =', qvm_time)
 
 print('speedup = ', single_thread_time/qvm_time)
@@ -108,14 +108,14 @@ for i in range(len(workload)):
     names = [name for qvm in workload[i][1] for name in qvm]
 
     # sum of qubit * time of each sub-job
-    u = sum(circ_list[baseline_name_to_index[name]].num_qubits * baseline_jobs_list[baseline_name_to_index[name]].result().metadata['execution']['execution_spans'].duration for name in names)
+    u = sum(circ_list[baseline_name_to_index[name]].num_qubits * baseline_jobs_list[baseline_name_to_index[name]].usage() for name in names)
     # divided by total qubit * total time
-    qvm_utilization.append(u/(TOT_QUBIT*qvm_jobs[i].result().metadata['execution']['execution_spans'].duration))
+    qvm_utilization.append(u/(TOT_QUBIT*qvm_jobs[i].usage()))
     # alternative calculation: calculate the improvement ratio of each batch and average over batches.
     # basically quotient of average vs average of quotient 
     baseline_util_in_batch = sum(circ_list[baseline_name_to_index[name]].num_qubits/TOT_QUBIT for name in names)/len(names)
     qvm_utilization_ratio.append(qvm_utilization[-1]/baseline_util_in_batch)
-    throughput_ratio.append(sum(baseline_jobs_list[baseline_name_to_index[name]].result().metadata['execution']['execution_spans'].duration for name in names)/qvm_jobs[i].result().metadata['execution']['execution_spans'].duration)
+    throughput_ratio.append(sum(baseline_jobs_list[baseline_name_to_index[name]].usage() for name in names)/qvm_jobs[i].usage())
 
 qvm_utilization_avg = sum(qvm_utilization)/len(qvm_utilization)
 

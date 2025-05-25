@@ -86,6 +86,12 @@ class HypervisorBackend(BackendV2):
         combined_circ = self.combine(compiled_circuits, mappings, self.backend.num_qubits, 'vm')
         direction_corrected_circ = self.translate.run(combined_circ)
 
+        # add a controlled gate to trigger dynamic circuit?
+        dummy_creg = ClassicalRegister(1, 'dummy')
+        direction_corrected_circ.add_register(dummy_creg)
+        with direction_corrected_circ.if_test((dummy_creg, 1)):
+            direction_corrected_circ.x(0)
+
         # delete chosen executables from executables list. Loop backwards to keep the index
         # delete_indexes = sorted((i[0] for i in selection), reverse=True)
         delete_indexes = sorted((j for i in selection for j in i[0]), reverse=True)
@@ -119,6 +125,12 @@ class HypervisorBackend(BackendV2):
         # first combine then adjust ecr gate direction for the whole circuit
         combined_circ = self.combine(compiled_circuits, mappings, self.backend.num_qubits, 'vm')
         direction_corrected_circ = self.translate.run(combined_circ)
+        
+        # add a controlled gate to trigger dynamic circuit?
+        dummy_creg = ClassicalRegister(1, 'dummy')
+        direction_corrected_circ.add_register(dummy_creg)
+        with direction_corrected_circ.if_test((dummy_creg, 1)):
+            direction_corrected_circ.x(0)
 
         # delete chosen executables from executables list. Loop backwards to keep the index
         # comment out if doing schedule time test because timeit repeats this function
